@@ -1,6 +1,6 @@
 module.exports = {
 	faq: (ctx) => {
-		ctx.telegram.sendMessage(ctx.chat.id, "Menu", {
+		ctx.telegram.sendMessage(ctx.chat.id, "Preguntas Frecuentes", {
 			reply_markup: {
 				inline_keyboard: [
 					[{ text: "¿Qué es un Airdrop?", callback_data: "airdrop1" }],
